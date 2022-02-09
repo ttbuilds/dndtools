@@ -1,0 +1,5 @@
+importFrom(dplyr, mutate)
+importFrom(dplyr, pull)
+importFrom(dplyr, rowwise)
+importFrom(dplyr, ungroup)
+exportPattern("^[[:alpha:]]+")

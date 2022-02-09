@@ -1,0 +1,13 @@
+Package: dndtools
+Type: Package
+Title: A collection of tools for analysis and simulation for 5th edition Dungeons and Dragons
+Version: 0.1.0
+Author: Esker
+Maintainer: Esker <eskerthebreton@gmail.com>
+Description: 
+License: GPL 3.0
+Depends: hash, tidyverse
+Collate: 'rule_definitions.R' 'utils.R' 'dice_objects.R' 'weapon_data.R' 'game_objects.R' 'build_objects.R' 'build_frame.R' 'class_features.R' 'subclass_features.R' 'feats.R' 'damage_tools.R' 'ui.R'
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
